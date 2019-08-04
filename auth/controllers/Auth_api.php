@@ -122,7 +122,7 @@ class Auth_api extends MX_Controller
               $html_content = $this->get_html_mail($user, $pw_reset_code);
 
               
-          $mgClient = new Mailgun('key-b06d19fddd74ae0bfab2b7df0bf6fbc6');
+          $mgClient = new Mailgun('mailgun_key');
             $domain = "sitecontrol.in";
 
             # Make the call to the client.
